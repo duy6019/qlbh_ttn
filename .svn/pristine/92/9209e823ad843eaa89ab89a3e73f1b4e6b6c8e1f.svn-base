@@ -257,7 +257,6 @@ namespace project
         }
         void Hoantac()
         {
-            btnThem.Enabled = true;
             btnManhanvien.Enabled = true;
             Loadnhanvien();
             txtManhanvien.Enabled = true;
@@ -281,7 +280,7 @@ namespace project
 
         private void dgvNhanvien_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            btnThem.Enabled = false;
+            btnManhanvien.Enabled = false;
             txtManhanvien.Enabled = false;
             btnXoa.Enabled = true;
             btnSua.Enabled = true;
