@@ -1,0 +1,214 @@
+﻿namespace project
+{
+    partial class FormThongkedoanhthutungmathang
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dgvDoanhthu = new System.Windows.Forms.DataGridView();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.xuấtFileExcelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ColumMasanpham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumTensanpham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumGiaban = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumSoluongban = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumThanhtien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumDoanhthu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDoanhthu)).BeginInit();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(212, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(233, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Thống Kê Doanh Thu";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(12, 27);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(669, 61);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dgvDoanhthu);
+            this.groupBox2.Location = new System.Drawing.Point(12, 94);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(668, 330);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Sản Phẩm";
+            // 
+            // dgvDoanhthu
+            // 
+            this.dgvDoanhthu.AllowUserToAddRows = false;
+            this.dgvDoanhthu.AllowUserToResizeColumns = false;
+            this.dgvDoanhthu.AllowUserToResizeRows = false;
+            this.dgvDoanhthu.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvDoanhthu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDoanhthu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumMasanpham,
+            this.ColumTensanpham,
+            this.ColumGiaban,
+            this.ColumSoluongban,
+            this.ColumThanhtien,
+            this.ColumDoanhthu});
+            this.dgvDoanhthu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDoanhthu.Location = new System.Drawing.Point(3, 18);
+            this.dgvDoanhthu.Name = "dgvDoanhthu";
+            this.dgvDoanhthu.ReadOnly = true;
+            this.dgvDoanhthu.Size = new System.Drawing.Size(662, 309);
+            this.dgvDoanhthu.TabIndex = 0;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.xuấtFileExcelToolStripMenuItem,
+            this.thoátToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(704, 24);
+            this.menuStrip1.TabIndex = 3;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // xuấtFileExcelToolStripMenuItem
+            // 
+            this.xuấtFileExcelToolStripMenuItem.ForeColor = System.Drawing.Color.MediumBlue;
+            this.xuấtFileExcelToolStripMenuItem.Name = "xuấtFileExcelToolStripMenuItem";
+            this.xuấtFileExcelToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
+            this.xuấtFileExcelToolStripMenuItem.Text = "Xuất File Excel";
+            this.xuấtFileExcelToolStripMenuItem.Click += new System.EventHandler(this.xuấtFileExcelToolStripMenuItem_Click);
+            // 
+            // thoátToolStripMenuItem
+            // 
+            this.thoátToolStripMenuItem.ForeColor = System.Drawing.Color.MediumBlue;
+            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.thoátToolStripMenuItem.Text = "Thoát";
+            this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
+            // 
+            // ColumMasanpham
+            // 
+            this.ColumMasanpham.DataPropertyName = "Masanpham";
+            this.ColumMasanpham.HeaderText = "Mã Sản Phẩm";
+            this.ColumMasanpham.Name = "ColumMasanpham";
+            this.ColumMasanpham.ReadOnly = true;
+            this.ColumMasanpham.Width = 80;
+            // 
+            // ColumTensanpham
+            // 
+            this.ColumTensanpham.DataPropertyName = "Tensanpham";
+            this.ColumTensanpham.HeaderText = "Tên Sản Phẩm";
+            this.ColumTensanpham.Name = "ColumTensanpham";
+            this.ColumTensanpham.ReadOnly = true;
+            this.ColumTensanpham.Width = 130;
+            // 
+            // ColumGiaban
+            // 
+            this.ColumGiaban.DataPropertyName = "Giaban";
+            this.ColumGiaban.HeaderText = "Giá Bán";
+            this.ColumGiaban.Name = "ColumGiaban";
+            this.ColumGiaban.ReadOnly = true;
+            // 
+            // ColumSoluongban
+            // 
+            this.ColumSoluongban.HeaderText = "Số Lượng Đã Bán";
+            this.ColumSoluongban.Name = "ColumSoluongban";
+            this.ColumSoluongban.ReadOnly = true;
+            // 
+            // ColumThanhtien
+            // 
+            this.ColumThanhtien.HeaderText = "Doanh Thu";
+            this.ColumThanhtien.Name = "ColumThanhtien";
+            this.ColumThanhtien.ReadOnly = true;
+            // 
+            // ColumDoanhthu
+            // 
+            this.ColumDoanhthu.HeaderText = "Lợi Nhuận";
+            this.ColumDoanhthu.Name = "ColumDoanhthu";
+            this.ColumDoanhthu.ReadOnly = true;
+            // 
+            // FormThongkedoanhthutungmathang
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(704, 455);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.Name = "FormThongkedoanhthutungmathang";
+            this.Text = "Thống Kê Doanh Thu";
+            this.Load += new System.EventHandler(this.FormThongkedoanhthutungmathang_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDoanhthu)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DataGridView dgvDoanhthu;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem xuấtFileExcelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumMasanpham;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumTensanpham;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumGiaban;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumSoluongban;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumThanhtien;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumDoanhthu;
+    }
+}

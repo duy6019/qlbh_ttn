@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace project
+{
+    public partial class FormTrangChu : Form
+    {
+        public FormTrangChu()
+        {
+            InitializeComponent();
+        }
+        public static string Manhanvien,quyenhan;
+        string tenhanvien = "";
+        private void FormTrangChu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDangnhap frm = new FormDangnhap();
+            this.Hide();
+            frm.Closed += (s, args) => this.Close();
+            frm.ShowDialog();
+        }
+        
+
+        private void f1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormTroGiup frm = new FormTroGiup();
+            frm.ShowDialog();
+        }
+        
+    }
+}
